@@ -1,0 +1,13 @@
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\bin\Debug\netcoreapp3.1\CSharpOnline.exe
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\bin\Debug\netcoreapp3.1\CSharpOnline.deps.json
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\bin\Debug\netcoreapp3.1\CSharpOnline.runtimeconfig.json
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\bin\Debug\netcoreapp3.1\CSharpOnline.runtimeconfig.dev.json
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\bin\Debug\netcoreapp3.1\CSharpOnline.dll
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\bin\Debug\netcoreapp3.1\CSharpOnline.pdb
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\obj\Debug\netcoreapp3.1\CSharpOnline.csprojAssemblyReference.cache
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\obj\Debug\netcoreapp3.1\CSharpOnline.AssemblyInfoInputs.cache
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\obj\Debug\netcoreapp3.1\CSharpOnline.AssemblyInfo.cs
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\obj\Debug\netcoreapp3.1\CSharpOnline.csproj.CoreCompileInputs.cache
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\obj\Debug\netcoreapp3.1\CSharpOnline.dll
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\obj\Debug\netcoreapp3.1\CSharpOnline.pdb
+C:\Users\snapi\Desktop\MyRespiratory\CSharpOnline\CSharpOnline\obj\Debug\netcoreapp3.1\CSharpOnline.genruntimeconfig.cache
