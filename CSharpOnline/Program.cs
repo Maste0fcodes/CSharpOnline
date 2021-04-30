@@ -6,12 +6,29 @@ namespace CSharpOnline
     class Program
     {
 
-        static void Main(string [] args)
+        static void Main(string[] args)
         {
-            MyLesson6Examples();
+            MyLesson7Examples();
+            //MyLesson6Examples();
             //MyLesson5Examples();
-           // Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
            // House _myHouse = new House();
+        }
+
+        static void MyLesson7Examples()
+        {
+            Lesson7 mySeven = new Lesson7();
+            mySeven.BasicMath();
+            mySeven.BasicModuls();
+            mySeven.BasicCheckedOperator(46,85);
+            mySeven.BasicCheckedOperator2();
+            mySeven.BasicAssignmentExamples();
+            mySeven.MyLeftShiftOperator();
+            mySeven.MyRightShiftOperator();
+            mySeven.MyAndAssignmentOperator(10, 2);
+            mySeven.MyOrAssignmentOperator();
+            mySeven.MyXORAssignement();
+            mySeven.MyIncrementDecrementExamples();
         }
 
         static void MyLesson6Examples()
