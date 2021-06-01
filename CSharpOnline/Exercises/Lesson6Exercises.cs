@@ -10,11 +10,16 @@ namespace CSharpOnline.Exercises
         {
             myMethod("gabe");
         }
+
+        internal object realNumbers(int num1, int num2)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     static void MyCharMethod()
     {
-        char myChar = '\U+A9';
+        char myChar = "\U+A9";
         Console.WriteLine(myChar);
     }
 
@@ -23,7 +28,7 @@ namespace CSharpOnline.Exercises
         Console.WriteLine("Output");
     }
 
-    private static void MyStringExample(string[] args)
+    private static void MyString (string[] args)
     {
         Console.WriteLine("Jack and Jill");
         Console.WriteLine("Went up the hill");
