@@ -45,5 +45,45 @@ namespace CSharpOnline.Lessons
             } // end outer loop
         }
 
+        // This method will demonstrate a 3d Array 
+        public void My3DArray()
+        {
+            int[,,] my3DArray = new int[2, 2, 3]
+                {{{1,2,3,} , {4,5,6,}} , {{7,8,9} , {10,11,12 }}};
+
+            for(int i = 0; i < my3DArray.GetLength(0); i++)
+            {
+                for(int k = 0; k < my3DArray.GetLength(1); k++)
+                {
+                    for(int m = 0; m < my3DArray.GetLength(2); m++)
+                    {
+                        // Console.Writeline(my3DArray [i,k,m];
+                        Console.WriteLine($"{i.ToString()} , {k.ToString()}," +
+                            $"{m.ToString()} : {my3DArray.GetValue(i, k, m)} ");
+
+                    } // end inner inner for loop
+                } // end inner for loop 
+            } // end outer for loop 
+        }
+
+        // A basic jagged array with 2 loops  
+        public void MyJaggedArray()
+        {
+            int[][] sampleArray = new int[3][];
+            sampleArray[0] = new int[]{ 2, 5};
+            sampleArray[1] = new int[] { 6, 8, 12 };
+            sampleArray[2] = new int[] { 13, 15, 17, 19, 21 }; 
+
+            for(int i = 0; i < sampleArray.Length; i++)
+            {
+                Console.WriteLine("Row({0}):", i);
+                for(int k = 0; k < sampleArray[i].Length; k++)
+                {
+                    Console.WriteLine("{0}", sampleArray[i][k]);
+                } // end inner loop
+                Console.WriteLine();
+            } // end ouer loop
+        }
+
     } // end class
 }// end namespace
