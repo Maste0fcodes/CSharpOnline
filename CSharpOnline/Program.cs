@@ -8,13 +8,24 @@ namespace CSharpOnline
 
         static void Main(string[] args)
         {
-            MyLesson10Examples();
-            //MyLesson9Examples();
+            MyLesson11Examples();
+            // MyLesson10Examples();
+            // MyLesson9Examples();
             // MyLesson7Examples();
             // MyLesson6Examples();
             // MyLesson5Examples();
             // Console.WriteLine("Hello World!");
            // House _myHouse = new House();
+        }
+
+        static void MyLesson11Examples()
+        {
+            Condo myCondo = new Condo();
+            myCondo.Maintenance();
+            myCondo.DoorOpenClose();
+            House myHouse = new House();
+            myHouse.DoorOpenClose();
+            myHouse.DoorOpenClose("Red");
         }
 
         static void MyLesson10Examples()
