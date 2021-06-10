@@ -8,7 +8,8 @@ namespace CSharpOnline
 
         static void Main(string[] args)
         {
-            MyLesson11Examples();
+            MyLesson12Examples();
+            // MyLesson11Examples();
             // MyLesson10Examples();
             // MyLesson9Examples();
             // MyLesson7Examples();
@@ -16,6 +17,15 @@ namespace CSharpOnline
             // MyLesson5Examples();
             // Console.WriteLine("Hello World!");
            // House _myHouse = new House();
+        }
+
+        static void MyLesson12Examples()
+        {
+            Lesson12 myTwelve = new Lesson12();
+            myTwelve.BasicPublicMethod();
+            Lesson12Child myChild = new Lesson12Child();
+            myChild.BasicChildMethod();
+            myTwelve.BaicProtectedInternalMethod();
         }
 
         static void MyLesson11Examples()

@@ -23,5 +23,21 @@ namespace CSharpOnline.Lessons
             Console.WriteLine("My Default Constructor");
         }
 
+        public void MyBasicRef(ref int able, int beta)
+        {
+            able += 6;
+            beta += 5;
+
+            Console.WriteLine("Able = {0} , Beta = {1}", able, beta);
+        }
+
+        public void MyBasicOut(string name, out string firstname, out string lastname)
+        {
+            int myIndex = name.IndexOf(' ');
+            firstname = name.Substring(0, myIndex);
+            lastname = name.Substring(myIndex + 1);
+
+        }
+
     }// end class 
 } // end namespace
