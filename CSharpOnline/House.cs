@@ -28,12 +28,24 @@ namespace CSharpOnline
 
         public string DoorColor { get; set; }
 
-        public House() { }
+        public House() 
+            :this(25, "concrete")
+        {
 
-        public House(int windowSize, string foundation)  
+        }
+
+        public House(int windowSize, string foundation)
+            : this(windowSize, foundation, "composite", "Red")
+        {
+           
+        }
+
+        public House(int windowSize, string foundation, string roofType, string doorColor)
         {
             this.windowSize = windowSize;
             this.foundation = foundation;
+            RoofType = roofType;
+            DoorColor = doorColor;
         }
 
         /*

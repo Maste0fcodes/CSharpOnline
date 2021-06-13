@@ -33,5 +33,15 @@ namespace CSharpOnline.Lessons
             Console.WriteLine("This is a protected method");
         }
 
+        private protected void BasicPrivateProtectedMethod()
+        {
+            Console.WriteLine("This is a private protected method");
+        }
+
+        protected internal void BaicProtectedInternalMethod()
+        {
+            Console.WriteLine("This is a protected internal method");
+        }
+
     } // End class
 } // End Namespace

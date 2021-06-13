@@ -8,8 +8,9 @@ namespace CSharpOnline
 
         static void Main(string[] args)
         {
-            MyLesson13Examples();
-            //MyLesson12Examples();
+            MyLesson14Examples();
+            // MyLesson13Examples();
+            // MyLesson12Examples();
             // MyLesson11Examples();
             // MyLesson10Examples();
             // MyLesson9Examples();
@@ -26,7 +27,19 @@ namespace CSharpOnline
             Console.WriteLine("The door color is {0}", myHouse.DoorColor);
             Condo myCondo = new Condo();
             myCondo.DoorOpenClose();
-            Console.WriteLine("This roof type is {0}", myCondo.RoofType);
+            Console.WriteLine("This foundation type is {0}", myCondo.Foundation);
+        }
+
+        static void MyLesson14Examples()
+        {
+            Lesson14Static.CelsiusToFahrenheit("34.5");
+            Console.WriteLine(Lesson14Static.FahrenheitToCelsius("64"));
+
+            Lesson14Derived myLesson14 = new Lesson14Derived(8);
+            myLesson14.ShowResultFeet();
+
+            Lesson14Base myBase = new Lesson14Derived(10);
+            myBase.ShowResultFeet();
         }
 
         static void MyLesson12Examples()

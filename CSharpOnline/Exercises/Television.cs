@@ -4,19 +4,19 @@ using System.Text;
 
 namespace CSharpOnline.Exercises
 {
-    class Television
+    private class television
     {
-    
-        public Television (int value, string type)
+
+        public television(int value, string type)
         {
            Console.WriteLine("int value", "string type");
         }
-        public Television()
+        public television()
         {
-            Console.WriteLine("the tv is turned in");
+            Console.WriteLine("the tv is turned on");
         }
 
-        public Television (string screenSize, decimal price, string ports, string isMountable)
+        public television  (string screenSize, decimal price, string ports, string isMountable)
         {
             screenSize = screenSize;
             price = price;
@@ -25,6 +25,36 @@ namespace CSharpOnline.Exercises
 
             Console.WriteLine ("screenSize, price, ports, isMountable");
         }
+
+        public void BasicChildMethod()
+        {
+            Console.WriteLine("This is a child class.");
+        }
+
+        public string screenSize
+        {
+            get { return screenSize; }
+            set { screenSize = value; }
+        }
+
+        public string ports
+        {
+            get { return ports; }
+            set { ports = value; }
+        }
+
+        public string price
+        {
+            get { return price; }
+            set { price = value; }
+        }
+
+        public string isMountable
+        {
+            get { return isMountable; }
+            set { isMountable = value; }
+        }
+
 
     }
 }
