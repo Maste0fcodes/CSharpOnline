@@ -8,7 +8,9 @@ namespace CSharpOnline
 
         static void Main(string[] args)
         {
-            MyLesson14Examples();
+            MyLesson16Examples();
+            // MyLesson15Examples();
+           // MyLesson14Examples();
             // MyLesson13Examples();
             // MyLesson12Examples();
             // MyLesson11Examples();
@@ -19,6 +21,32 @@ namespace CSharpOnline
             // MyLesson5Examples();
             // Console.WriteLine("Hello World!");
            // House _myHouse = new House();
+        }
+
+        static void MyLesson16Examples()
+        {
+            Lesson16 my16 = new Lesson16();
+            my16.MyArrayListExample();
+            my16.MyHashTableExamples();
+            my16.MyListExample();
+            my16.MyHouseListExample();
+            my16.MyDictionaryExample();
+            my16.MyLinqExample();
+            my16.MyOtherLinq();
+        }
+        static void MyLesson15Examples()
+        {
+            Lesson15 my15 = new Lesson15();
+            my15.BasicEnumCasting();
+            my15.MyFavoriteFlavor(Lesson15.IceCreamFlavors.ChocolateChip);
+            // Constants can not be altered, but can be used
+            Console.WriteLine(Lesson15.words);
+            my15[2] = 17;
+
+            for(int i = 0; i < my15.ConeArrayLength; i++)
+            {
+                Console.WriteLine("The Value of {0} = {1}", i, my15[i]);
+            }
         }
 
         static void MyLesson13Examples()
@@ -37,6 +65,7 @@ namespace CSharpOnline
 
             Lesson14Derived myLesson14 = new Lesson14Derived(8);
             myLesson14.ShowResultFeet();
+            myLesson14.ShowResultMiles();
 
             Lesson14Base myBase = new Lesson14Derived(10);
             myBase.ShowResultFeet();
