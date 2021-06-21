@@ -4,7 +4,12 @@ using System.Text;
 
 namespace CSharpOnline.Lessons
 {
-    interface ILesson14
+    /*This interface is part of Lesson 14*/
+    public interface ILesson14
     {
-    }
-}
+        double MilesToYards { get; }
+
+        void ShowResultMiles();
+
+    } // end interface 
+} // end namespace

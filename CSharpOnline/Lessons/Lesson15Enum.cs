@@ -9,6 +9,5 @@ namespace CSharpOnline.Lessons
     public enum Lesson15Enum
     {
         Sun, Mon, Tue, Wed, Thur, Fri, Sat
-
     } // end enum
 } // end namespace

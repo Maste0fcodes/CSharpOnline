@@ -46,5 +46,18 @@ namespace CSharpOnline.Lessons
             Console.WriteLine(msg);
         }
 
+        protected int[] coneSizes = new int[] { 5, 10, 15, 20 };
+
+        public int ConeArrayLength
+        {
+            get { return coneSizes.Length; }
+        }
+
+        public int this [int index]
+        {
+            get { return coneSizes[index]; }
+            set { coneSizes[index] = value; }
+        }
+
     } // end class
 } // end namespace

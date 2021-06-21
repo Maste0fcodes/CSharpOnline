@@ -28,7 +28,7 @@ namespace CSharpOnline.Exercises
         Console.WriteLine("Output");
     }
 
-    private static void MyString (string[] args)
+    private static void MyStringMethod (string[] args)
     {
         Console.WriteLine("Jack and Jill");
         Console.WriteLine("Went up the hill");

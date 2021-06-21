@@ -4,7 +4,8 @@ using System.Text;
 
 namespace CSharpOnline.Exercises
 {
-    class Lesson15Exercise
+    public enum Lesson15ExerciseEnum
     {
-    }
-}
+        Horror, Action, Drama, Fanasty, Adventure
+    } // end class
+} // end namespace 

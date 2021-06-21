@@ -4,13 +4,11 @@ using System.Text;
 
 namespace CSharpOnline.Exercises
 {
-    class WaterBirds : IMovement 
+    public static class Lesson16Exercises
     {
-        private void myWaterBirdMethod()
+        public void MyTelevisionSizes()
         {
-            Console.WriteLine("");
+
         }
-
-
     }
 }

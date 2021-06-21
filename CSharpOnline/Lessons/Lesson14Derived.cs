@@ -26,6 +26,7 @@ namespace CSharpOnline.Lessons
         {
             Console.WriteLine("Your number {0} in feet is {1} inchs", num, FeetToInches);
             Console.WriteLine("Your number {0} in yards is {1} feet", num, YardsToFeet);
+        }
 
         public override void ShowResultMiles()
         {

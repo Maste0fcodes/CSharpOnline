@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CSharpOnline.Lessons
@@ -90,6 +91,42 @@ namespace CSharpOnline.Lessons
                 Console.WriteLine("Key: {0}, Value: {1}", item.Key, item.Value);
             }
 
+
         }
+
+        public void MyLinqExample()
+        {
+            int[] scores = new int[] { 97, 92, 88, 60, 55, 40, 20 };
+
+            IEnumerable<int> query =
+                from score in scores
+                where score < 85
+                select score;
+
+            foreach ( int item in query)
+            {
+                Console.WriteLine(item);
+            }
+
+        }
+
+        public void MyOtherLinq()
+        {
+            List<House> houses = new List<House>();
+            houses.Add(new House(23, "concrete"));
+            houses.Add(new House(24, "steel", "plastic", "red"));
+            houses.Add(new House());
+            houses.Add(new House(32, "wood", "wood", "blue"));
+
+            var subset = from myHouse in houses
+                         where myHouse.RoofType == "composite"
+                         orderby myHouse.DoorColor
+                         select myHouse;
+            foreach ( House item in subset)
+            {
+                Console.WriteLine("My house has {0} roof", item.RoofType)
+            }
+        }
+
     } // end class
 } // end namespace
