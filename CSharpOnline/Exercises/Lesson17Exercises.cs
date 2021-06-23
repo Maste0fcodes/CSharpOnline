@@ -18,10 +18,10 @@ namespace CSharpOnline.Exercises
         public string MyResult { get; private set; }
 
         public delegate void TryOnAnotherShoe(string shoe);
-        public delegate string TryFavoriteshoe(string favorite);
+        public delegate string TryFavoriteShoe(string favorite);
         public delegate int del(int beta);
 
-        public event TryFavoriteshoe MyEventHat;
+        public event TryFavoriteshoe MyEventShoe;
 
         public Lesson17Exercises()
         {
@@ -31,8 +31,8 @@ namespace CSharpOnline.Exercises
 
         public Lesson17Exercises(string type)
         {
-            MyShoe += new TryShoe(this.MyFavoriteShoe);
-            MyResult = MyShoe(type);
+            MyEventShoe += new TryFavoriteShoe(this.MyFavoriteShoe);
+            MyResult = MyEventShoe(type);
         }
 
         public Lesson17Exercises (string type, int size)
@@ -55,5 +55,10 @@ namespace CSharpOnline.Exercises
         {
             Console.WriteLine(msg);
         }
+
+    }
+
+    public class TryFavoriteshoe
+    {
     }
 }
