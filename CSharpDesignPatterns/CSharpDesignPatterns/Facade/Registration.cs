@@ -2,9 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpDesignPatterns.Facade
+namespace CSharpDesignPatterns
 {
-    class Registration
+    public class Registration
     {
+        private IBicycle _bicycle;
+
+        public Registration (IBicycle bicycle)
+        {
+            this._bicycle = bicycle;
+        }
+
+        public void AllocateBikerSerial()
+        {
+            SerialNumberGenerator serial = SerialNumberGenerator.Instance;
+            Console.WriteLine("Allocating Bike number {0}", serial.NextOtherSerial);
+        }
     }
 }
